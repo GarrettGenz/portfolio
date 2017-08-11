@@ -5,17 +5,23 @@ body {
 }
 .container {
 	margin-top: 100px;
-	width = 600px;
+	width: 800px;
 	background-color: GhostWhite;
 }
 
 .header {
 	border-bottom: 1px solid #878787;
+	text-align: center;
+}
+
+.header table {
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .img-circle {
-	height: 50%;
-	width: 50%;
+	height: 110px;
+	width: 110px;
 }
 
 .content {
@@ -26,9 +32,18 @@ body {
 	border-top: 1px solid #878787;
 }
 
+.nav {
+	text-align: center;
+}
+
 h1, 
 h2 {
 	font-family: 'Overlock', cursive;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
 }
 
 * {
