@@ -1,10 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Overlock');
+@import url('https://fonts.googleapis.com/css?family=Overlock|Voces');
+
+* {
+	outline: 1px solid red;
+}
+
+/* Elements */
 
 body {
 	background-color: Gainsboro;
+	font-family: 'Voces', sans-serif;
 }
+
+h1,
+h2 {
+	font-family: 'Overlock', cursive;
+}
+
+/* Classes */
+
 .container {
-	margin-top: 100px;
+	margin-top: 40px;
 	width: 800px;
 	background-color: GhostWhite;
 }
@@ -28,24 +43,32 @@ body {
 	border-top: 1px solid #878787;
 }
 
+.website-img {
+	width: 100%;
+}
+
 .footer {
 	border-top: 1px solid #878787;
+	margin-top: 20px;
 }
 
 .nav {
 	text-align: center;
 }
 
-h1, 
-h2 {
-	font-family: 'Overlock', cursive;
+.footer-nav {
+
 }
 
-a:link {
+/* Pseudo-Classes */
+
+a:link,
+a:visited {
 	text-decoration: none;
 	color: black;
 }
 
-* {
-	outline: 1px solid red;
+a:hover {
+	text-decoration: none;
+	color: rebeccapurple;
 }
