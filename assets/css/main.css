@@ -57,6 +57,17 @@ li {
 	text-align: center;
 }
 
+.left-content {
+	float:left;
+	width: 50%;
+}
+
+.right-content {
+	float:right;
+	text-align: right;
+	width: 50%;
+}
+
 .footer-nav {
 
 }
