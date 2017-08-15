@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Overlock|Voces');
 
-* {
-	outline: 1px solid red;
-}
-
 /* Elements */
 
 body {
@@ -14,6 +10,10 @@ body {
 h1,
 h2 {
 	font-family: 'Overlock', cursive;
+}
+
+li {
+	line-height: 200%;
 }
 
 /* Classes */
@@ -41,6 +41,7 @@ h2 {
 
 .content {
 	border-top: 1px solid #878787;
+	padding-top: 20px;
 }
 
 .website-img {
